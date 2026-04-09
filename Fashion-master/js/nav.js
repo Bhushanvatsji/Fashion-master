@@ -1,4 +1,4 @@
-// ========== NAVIGATION TOGGLE ==========
+
 const navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.nav-links');
@@ -17,14 +17,12 @@ const navSlide = () => {
       }
     });
 
-    // burger animation
     burger.classList.toggle('toggle');
   });
 };
 
 navSlide();
 
-// ========== IMAGE SLIDESHOW ==========
 const images = [
   "images/index-img/photo/Off-the-Wall.jpg",
   "images/index-img/photo/photo1.jpg",
